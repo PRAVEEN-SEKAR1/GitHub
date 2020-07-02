@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Sum]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Quotient]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Quotient]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Product]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Difference]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Exponential]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Inverse]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Negate]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Remainder]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="71" started-at="2020-07-02T18:47:58 IST" finished-at="2020-07-02T18:47:58 IST">
+    <groups>
+      <group name="exponential">
+        <method signature="NewCalculator.exp(int, int, int)[pri:0, instance:com.java.scubaPackage.NewCalculator@6e6c3152]" name="exp" class="com.java.scubaPackage.NewCalculator"/>
+      </group> <!-- exponential -->
+      <group name="add">
+        <method signature="Calculator.add(int, int, int)[pri:0, instance:com.java.scubaPackage.Calculator@6ebc05a6]" name="add" class="com.java.scubaPackage.Calculator"/>
+      </group> <!-- add -->
+      <group name="inverse">
+        <method signature="NewCalculator.inverse(double, double)[pri:0, instance:com.java.scubaPackage.NewCalculator@6e6c3152]" name="inverse" class="com.java.scubaPackage.NewCalculator"/>
+      </group> <!-- inverse -->
+      <group name="negation">
+        <method signature="NewCalculator.negate(int, int)[pri:0, instance:com.java.scubaPackage.NewCalculator@6e6c3152]" name="negate" class="com.java.scubaPackage.NewCalculator"/>
+      </group> <!-- negation -->
+      <group name="subtract">
+        <method signature="Calculator.sub(int, int, int)[pri:0, instance:com.java.scubaPackage.Calculator@6ebc05a6]" name="sub" class="com.java.scubaPackage.Calculator"/>
+      </group> <!-- subtract -->
+      <group name="arithmetic">
+        <method signature="Calculator.add(int, int, int)[pri:0, instance:com.java.scubaPackage.Calculator@6ebc05a6]" name="add" class="com.java.scubaPackage.Calculator"/>
+        <method signature="Calculator.divInt(int, int, int)[pri:0, instance:com.java.scubaPackage.Calculator@6ebc05a6]" name="divInt" class="com.java.scubaPackage.Calculator"/>
+        <method signature="Calculator.divReal(double, double, double)[pri:0, instance:com.java.scubaPackage.Calculator@6ebc05a6]" name="divReal" class="com.java.scubaPackage.Calculator"/>
+        <method signature="Calculator.mul(int, int, int)[pri:0, instance:com.java.scubaPackage.Calculator@6ebc05a6]" name="mul" class="com.java.scubaPackage.Calculator"/>
+        <method signature="Calculator.sub(int, int, int)[pri:0, instance:com.java.scubaPackage.Calculator@6ebc05a6]" name="sub" class="com.java.scubaPackage.Calculator"/>
+        <method signature="NewCalculator.exp(int, int, int)[pri:0, instance:com.java.scubaPackage.NewCalculator@6e6c3152]" name="exp" class="com.java.scubaPackage.NewCalculator"/>
+        <method signature="NewCalculator.inverse(double, double)[pri:0, instance:com.java.scubaPackage.NewCalculator@6e6c3152]" name="inverse" class="com.java.scubaPackage.NewCalculator"/>
+        <method signature="NewCalculator.mod(int, int, int)[pri:0, instance:com.java.scubaPackage.NewCalculator@6e6c3152]" name="mod" class="com.java.scubaPackage.NewCalculator"/>
+        <method signature="NewCalculator.negate(int, int)[pri:0, instance:com.java.scubaPackage.NewCalculator@6e6c3152]" name="negate" class="com.java.scubaPackage.NewCalculator"/>
+      </group> <!-- arithmetic -->
+      <group name="divide">
+        <method signature="Calculator.divInt(int, int, int)[pri:0, instance:com.java.scubaPackage.Calculator@6ebc05a6]" name="divInt" class="com.java.scubaPackage.Calculator"/>
+        <method signature="Calculator.divReal(double, double, double)[pri:0, instance:com.java.scubaPackage.Calculator@6ebc05a6]" name="divReal" class="com.java.scubaPackage.Calculator"/>
+      </group> <!-- divide -->
+      <group name="multiply">
+        <method signature="Calculator.mul(int, int, int)[pri:0, instance:com.java.scubaPackage.Calculator@6ebc05a6]" name="mul" class="com.java.scubaPackage.Calculator"/>
+      </group> <!-- multiply -->
+      <group name="modulus">
+        <method signature="NewCalculator.mod(int, int, int)[pri:0, instance:com.java.scubaPackage.NewCalculator@6e6c3152]" name="mod" class="com.java.scubaPackage.NewCalculator"/>
+      </group> <!-- modulus -->
+    </groups>
+    <test name="Test" duration-ms="71" started-at="2020-07-02T18:47:58 IST" finished-at="2020-07-02T18:47:58 IST">
+      <class name="com.java.scubaPackage.Calculator">
+        <test-method status="PASS" signature="mul(int, int, int)[pri:0, instance:com.java.scubaPackage.Calculator@6ebc05a6]" name="mul" duration-ms="20" started-at="2020-07-02T18:47:58 IST" data-provider="input3" finished-at="2020-07-02T18:47:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Product]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="divInt(int, int, int)[pri:0, instance:com.java.scubaPackage.Calculator@6ebc05a6]" name="divInt" duration-ms="20" started-at="2020-07-02T18:47:58 IST" data-provider="input4" finished-at="2020-07-02T18:47:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Quotient]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- divInt -->
+        <test-method status="PASS" signature="sub(int, int, int)[pri:0, instance:com.java.scubaPackage.Calculator@6ebc05a6]" name="sub" duration-ms="20" started-at="2020-07-02T18:47:58 IST" data-provider="input2" finished-at="2020-07-02T18:47:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Difference]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="add(int, int, int)[pri:0, instance:com.java.scubaPackage.Calculator@6ebc05a6]" name="add" duration-ms="20" started-at="2020-07-02T18:47:58 IST" data-provider="input1" finished-at="2020-07-02T18:47:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Sum]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="divReal(double, double, double)[pri:0, instance:com.java.scubaPackage.Calculator@6ebc05a6]" name="divReal" duration-ms="20" started-at="2020-07-02T18:47:58 IST" data-provider="input5" finished-at="2020-07-02T18:47:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Quotient]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- divReal -->
+      </class> <!-- com.java.scubaPackage.Calculator -->
+      <class name="com.java.scubaPackage.NewCalculator">
+        <test-method status="PASS" signature="exp(int, int, int)[pri:0, instance:com.java.scubaPackage.NewCalculator@6e6c3152]" name="exp" duration-ms="1" started-at="2020-07-02T18:47:58 IST" data-provider="input6" finished-at="2020-07-02T18:47:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Exponential]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="inverse(double, double)[pri:0, instance:com.java.scubaPackage.NewCalculator@6e6c3152]" name="inverse" duration-ms="1" started-at="2020-07-02T18:47:58 IST" data-provider="input8" finished-at="2020-07-02T18:47:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Inverse]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- inverse -->
+        <test-method status="PASS" signature="mod(int, int, int)[pri:0, instance:com.java.scubaPackage.NewCalculator@6e6c3152]" name="mod" duration-ms="1" started-at="2020-07-02T18:47:58 IST" data-provider="input7" finished-at="2020-07-02T18:47:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Remainder]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mod -->
+        <test-method status="PASS" signature="negate(int, int)[pri:0, instance:com.java.scubaPackage.NewCalculator@6e6c3152]" name="negate" duration-ms="1" started-at="2020-07-02T18:47:58 IST" finished-at="2020-07-02T18:47:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Negate]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negate -->
+      </class> <!-- com.java.scubaPackage.NewCalculator -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
